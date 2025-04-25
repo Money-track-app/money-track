@@ -1,0 +1,30 @@
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Root layout wrapper for sidebar + content */
+  .layout-wrapper {
+    display: flex;
+    height: 100vh;
+    background-color: #f9fafb;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* Main content area */
+  .main-content {
+    flex: 1;
+    padding: 40px;
+    background-color: #fff;
+    overflow-y: auto;
+  }
+  
+  
+  /* Remove leftover demo styles */
+  .logo,
+  .card,
+  .read-the-docs {
+    display: none;
+  }
+  
